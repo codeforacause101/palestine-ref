@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<header>
+    {{/*  <h1>{{ $.Site.Title }}</h1>  */}}
+    <h1>Welcome to Palestine Ref page</h1>
+    <b><p>This page lists links to resources that tell the other side of the Palestinan-Israeli story.</p>
+    
+    <p>This page doesn't endorse any of the links below, it merely curates content that represents the other opinion that is usually suppressed.</p>
+</b>
+</header>
+{{ .Content }}
+
+ {{ partial "post_list.html" (dict "context" . "section" "posts") -}}
+
+
+{{ end }}

@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article>
+    <p class="post-meta">
+        Date added: 
+        <time datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.theme_config.date_format }}
+        </time>
+    </p>
+    {{/*  <p class="post-meta">
+        Category: {{ .Params.categories }}
+    </p>  */}}
+    <p class="post-meta">
+       Tags:  {{ $length := len .Params.tags }}
+            {{ range $index, $tag := .Params.tags }}
+                <a href="/tags/{{ $tag }}">{{ $tag }}</a>{{ if ne $index (sub $length 1) }}, {{ end }}
+            {{ end }}
+    </p>
+
+    <h1><a href="{{ .Params.ex_url }}">{{ .Title }}</h1></a>
+
+    {{ if .Params.toc }}
+        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
+            {{ .TableOfContents }}
+        </aside>
+    {{ end }}
+    {{ .Content }}
+</article>
+{{ end }}
