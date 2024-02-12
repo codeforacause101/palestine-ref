@@ -4,6 +4,12 @@ The goal of this website is to curate links of resources that explain the realit
 # What is this website is NOT?
 We are not trying to bet yet another resource of information. We don't want to host any content or data ourselves. We simply direct people to trustworthy resources.
 
+# What is the criteria of the content?
+1. **Trust-worth resources**: We only link to trust-worth resources, that is supported by facts. The more official the resource, the better. Think of organisations, trust news agency, verified social profiles, ..etc.
+2. **No hate speach**: We don't link to resources that promote hate speach based on religion beliefs. 
+
+
+
 # How can I contribute?
 You can suggest links to resources. All what you need to do is to create a file with a unique name in the "posts" folder. This file should have two sections:
 
@@ -11,12 +17,12 @@ You can suggest links to resources. All what you need to do is to create a file 
 
 This section should have the following attributes:
 
-- title: which will be the text that represents the link
-- tags: list of tags this link can be labeled with. Please try your best to look into the other posts and re-use other tags before create new ones.
-- categories: list of categories that this post categorised under. (currently we are not using Categories).
-- ex_url: this is the link to the resource
-- weight: an integer that represents the weight of the page, the lower the number the higher the post will be.
-- Date: the data this link is added.
+- `title`: which will be the text that represents the link.
+- `tags`: list of tags to label the linked resource. Please try your best to look into the other posts and re-use other tags before create new ones.
+- `categories`: list of categories that this post categorised under. (currently we are not using Categories).
+- `ex_url`: this is the link to the resource
+- `weight`: an integer that represents the weight of the resource, the lower the number the higher the post will be.
+- `Date`: the data this link is added.
 
 Below is an example.
 
