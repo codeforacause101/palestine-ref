@@ -1,4 +1,4 @@
-name: Docker Build and Run
+name: Docker Build URL Validator
 
 on: 
   push:
