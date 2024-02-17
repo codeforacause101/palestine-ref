@@ -1,11 +1,12 @@
-name: Run Docker Container
+name: Validate URLs
 
 on:
   schedule:
     - cron: '0 21 * * *'
 
 jobs:
-  run:
+  run-docker-container:
+    name: Run Docker Container
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
