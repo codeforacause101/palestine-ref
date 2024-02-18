@@ -6,7 +6,7 @@ on:
   workflow_dispatch: 
 
 env:
-  DOCKER_IMAGE_NAME: ghcr.io/${{ github.repository }}/url-validator:latest
+  DOCKER_IMAGE_NAME: ghcr.io/${{ github.repository }}/url-validator:main
 
 jobs:
   run-docker-container:
