@@ -4,7 +4,7 @@ import sys
 
 def validate_url(url):
     # if url contains "/tags" then apply this code block
-    if not "/tags" in url or not "/posts/books" in url : 
+    if not "/tags" in url and not "/posts/books" in url : 
         try:
             response = requests.head(url)
             return response.status_code != 404
