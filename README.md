@@ -1,12 +1,12 @@
 # What is this website?
-The goal of this website is to curate links of resources that explain the reality of the Israeli occupation to Palestine. 
+The goal of this website is to curate links of resources that explain the reality of the Israeli occupation of Palestine. 
 
 # What is this website is NOT?
-We are not trying to bet yet another resource of information. We don't want to host any content or data ourselves. We simply direct people to trustworthy resources.
+We don't want to host any content or data ourselves. We simply direct people to trustworthy resources.
 
 # What is the criteria of the content?
-1. **Trustworthth resources**: We only link to trustworthy resources, that is supported by facts. The more official the resource, the better. Think of organisations, trusted news agency, verified social profiles, ..etc.
-2. **No hate speach**: We don't link to resources that promote hate speach based on religion beliefs. 
+1. **Trustworthy resources**: We only link to trustworthy resources, that is supported by facts. The more official the resource, the better. Think of organisations, trusted news agency, verified social profiles, ..etc.
+2. **No hate speach**: We don't link to resources that promote hate speach based on religious beliefs. 
 
 
 
