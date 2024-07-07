@@ -3,6 +3,11 @@
     {{- partial "head.html" . -}}
     <body a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
         <main class="page-content" aria-label="Content">
+            <div class="fork-me-wrapper fork-me-fixed">
+                <div class="fork-me fork-me-dark">
+                    <a id="fork-me-link" class="fork-me-link" href="https://github.com/codeforacause101/palestine-ref"><span class="fork-me-text">Contribute On GitHub</span></a>
+                </div>
+            </div>
             <div class="w">
                 {{- block "main" . }}{{- end }}
             </div>

@@ -18,5 +18,7 @@
   {{ $sass := resources.Get "css/main.scss" }}
   {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
+  {{ $forkOnGitHubStyle := resources.Get "css/fork.min.css" | resources.ToCSS | resources.Fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $forkOnGitHubStyle.Permalink | relURL }}"  />
   {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
 </head>
